@@ -1,0 +1,11 @@
+:root { --carbon: #111111; --papel: #EDEAE3; --rojo: #B81D16; --plata: #9A9A94; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--carbon); color: var(--papel); font: 17px/1.6 -apple-system, "Inter", "Segoe UI", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 56px 16px 80px; }
+h1 { font: 700 44px/1.05 "Anton", Impact, sans-serif; text-transform: uppercase; letter-spacing: .01em; margin: 0 0 8px; }
+h1 span { background: var(--rojo); padding: 0 10px; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+.meta { font-family: ui-monospace, "IBM Plex Mono", monospace; color: var(--plata); letter-spacing: .08em; font-size: 14px; text-transform: uppercase; }
+a { color: var(--papel); text-decoration-color: var(--rojo); text-underline-offset: 3px; }
+footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid #2a2a2a; color: var(--plata); font-size: 14px; }
+footer a { margin-right: 16px; }
