@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lostmasterstories.github.io/sitemap.xml
