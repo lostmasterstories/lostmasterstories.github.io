@@ -18,3 +18,11 @@ h2 .t { font: 13px ui-monospace, "IBM Plex Mono", monospace; color: var(--plata)
 .chica { font-size: 14px; color: var(--plata); }
 .chica a { color: var(--plata); }
 .lista a { overflow-wrap: anywhere; }
+.hero { margin: 0 -16px 8px; }
+.hero img { display: block; width: 100%; height: auto; }
+.grilla { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px 16px; }
+.tarjeta { text-decoration: none; }
+.tarjeta img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #000; margin-bottom: 8px; }
+.tarjeta b { display: block; line-height: 1.3; }
+.tarjeta .meta { font-size: 12px; }
+@media (max-width: 640px) { .grilla { grid-template-columns: 1fr 1fr; } }
