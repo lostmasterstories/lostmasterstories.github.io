@@ -19,7 +19,10 @@
   <p>With the channel owner's authorization (Google OAuth), the App accesses only what it needs to manage those channels: each channel's ID and branding settings, and the videos it uploads. It does not access, collect or store data about any other YouTube user, viewer or commenter.</p>
 
   <h2>How data is stored</h2>
-  <p>The OAuth access token is stored only on the owner's computer and is never shared with third parties. The App does not sell, rent or transfer any data. No analytics, advertising or tracking tools are used by the App or this website.</p>
+  <p>The OAuth access token is stored only on the owner's computer and is never shared with third parties. Besides the token, the App keeps a small local log with the IDs and processing status of the videos it uploaded to the owner's channels, so the same video is never uploaded twice. The App does not sell, rent or transfer any data. No analytics, advertising or tracking tools are used by the App or this website.</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>The local log keeps only the IDs of the owner's own videos and is kept while the owner manages those channels. No data obtained from the YouTube API Services is kept for more than 30 days without being refreshed from the API. The owner can delete the token and the log at any time; they are also deleted within 7 days after access is revoked. To request deletion of any data, write to rabbiteyes.org@gmail.com; requests are completed within 7 days.</p>
 
   <h2>Revoking access</h2>
   <p>Access can be revoked at any time from the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. When access is revoked, the stored token stops working and is deleted.</p>
